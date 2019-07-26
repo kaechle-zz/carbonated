@@ -3,15 +3,17 @@ A boilerplate for new front-end projects using npm and gulp 4.
 
 ## To-do
 - [ ] Watch function
-- [ ] Build function
+- [ ] Clean function
 - [ ] Compile scss
 - [ ] Uglify css
 - [ ] Uglify js
 - [ ] Uglify code
+- [ ] Build function
 
 ## Psuedocode
 ```
 function watch (public)
+  start server
   if changes in scss
     compile scss
     refresh browser
@@ -19,12 +21,16 @@ function watch (public)
     refresh browser
 
 function build (public)
+  clean
   compile scss
   uglify code
 
+function clean (private)
+  clean distro/
+
 function compile scss (private)
-  compile scss in src dir in order
-  pipe to distro dir
+  compile scss in src/ dir in order
+  pipe to distro/ dir
 
 function uglify css (private)
   compile scss
