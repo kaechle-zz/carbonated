@@ -1,0 +1,36 @@
+# compiled
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# logs and databases
+*.log
+*.sql
+*.sqlite
+
+# os files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# other
+node_modules/
+design.xd
+
