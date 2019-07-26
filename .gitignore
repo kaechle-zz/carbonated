@@ -32,5 +32,6 @@ Thumbs.db
 
 # other
 node_modules/
+dest/
 design.xd
 
